@@ -1,0 +1,42 @@
+html,body{
+  margin: auto;
+  padding: 0;
+}
+
+h3{
+  text-align: center;
+}
+
+#canvas{
+  border-style: solid;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#button{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 0;
+}
+
+#gameContainer {
+  width: 100%;
+}
+
+#viewport{
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+}
+
+#bird{
+  width: 15px;
+  height:20px;
+}
